@@ -1,13 +1,18 @@
 {
+	"publisher": "iferrnil",
 	"name": "snippet-autocreate",
 	"displayName": "snippet_autocreate",
-	"description": "crate snipet auto",
+	"description": "create snippet auto, transfer selection code to snippet body",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/5dao/vscode_snippet_autocreate"
+	},
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.67.0"
 	},
 	"categories": [
-		"Other"
+		"Snippets"
 	],
 	"activationEvents": [
 		"onCommand:snippet-autocreate.create_snippet"
